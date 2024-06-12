@@ -1,0 +1,18 @@
+.header-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-height: 20vh;
+    background-color:#070f2b;
+    color:#ccd2da;
+    font-family: sans-serif;
+}
+input{
+    padding: 10px;
+}
+button{
+    padding: 10px;
+}
+a{
+    color:#ccd2da ;
+}
