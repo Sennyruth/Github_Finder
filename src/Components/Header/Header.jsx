@@ -1,4 +1,5 @@
 import React from 'react'
+import { FaUsers } from "react-icons/fa";
 import "./Header.css"
 function Header() {
   return (
@@ -14,6 +15,7 @@ function Header() {
       
       </div>
     </header>
+   
     
   )
 }
