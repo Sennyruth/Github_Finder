@@ -1,13 +1,12 @@
-import Header from "./Components/Header/Header"
-import Userprofile from "./Profile/Userprofile/Userprofile"
+import Header from "./Components/Header/Header";
+import Userprofile from "./Profile/Userprofile";
 function App() {
-
   return (
     <>
-      <Header/>
-      <Userprofile/>
+      <Header />
+      <Userprofile />
     </>
-  )
+  );
 }
 
-export default App
+export default App;
