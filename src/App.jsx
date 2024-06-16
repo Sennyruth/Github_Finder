@@ -1,10 +1,13 @@
+import React from "react";
 import Header from "./Components/Header/Header";
 import Userprofile from "./Profile/Userprofile";
 function App() {
   return (
     <>
-      <Header />
-      <Userprofile />
+      <React.Fragment>
+        <Header />
+        <Userprofile />
+      </React.Fragment>
     </>
   );
 }

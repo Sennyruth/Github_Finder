@@ -1,13 +1,13 @@
-import {create } from 'zustand';
+import { create } from "zustand";
 
 const userStore = (set) => ({
-  username:"",
+  username: "",
 
   captureUsername: (newName) => {
     set(() => {
-        return { username: newName }
+      return { username: newName };
     });
-  }
+  },
 });
-const useuserstore = create (userStore)
-export default useuserstore
+const useuserstore = create(userStore);
+export default useuserstore;
